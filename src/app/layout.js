@@ -14,6 +14,7 @@ export const metadata = {
     template: "%s | Deyukti Labs",
   },
   alternates: { canonical: "/" },
+  verification: { google: "fZM4JXklaNdujY6B49PJ2UX3jw5BTjKJAD_DUZSAWeA" },
   description: "Deyukti Labs helps organizations find exceptional talent, understand the market, and make people operations work better with responsible AI.",
   applicationName: "Deyukti Labs",
   openGraph: {
