@@ -52,7 +52,7 @@ export default function InsightsPage() {
         </div>
         <div className="insight-channels">
           {channels.map((channel) => (
-            <article className={`insight-channel insight-channel--${channel.key}`} key={channel.number}>
+            <article id={`${channel.key === "market" ? "hiring-market-intelligence" : channel.key === "career" ? "career-intelligence" : "ta-weekly"}`} className={`insight-channel insight-channel--${channel.key}`} key={channel.number}>
               <div className="insight-channel-topline"><span>{channel.number}</span><span className="eyebrow">INSIGHTS</span></div>
               <h2>{channel.title}</h2>
               <p className="insight-channel-description">{channel.description}</p>

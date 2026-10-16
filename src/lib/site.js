@@ -42,7 +42,7 @@ export const navigation = [
 
 export const headerNavigation = navigation.flatMap((item) => {
   if (item.label === "Talent Opportunities") {
-    return [{ ...item, children: [{ label: "Selected Active Mandates", href: item.href }] }];
+    return [{ ...item, children: [{ label: "Selected Active Mandates", href: `${item.href}#selected-active-mandates` }] }];
   }
 
   if (item.label === "Insights") {
@@ -50,9 +50,9 @@ export const headerNavigation = navigation.flatMap((item) => {
       {
         ...item,
         children: [
-          { label: "Hiring Market Intelligence", href: item.href },
-          { label: "Career Intelligence", href: item.href },
-          { label: "TA Weekly", href: item.href },
+          { label: "Hiring Market Intelligence", href: `${item.href}#hiring-market-intelligence` },
+          { label: "Career Intelligence", href: `${item.href}#career-intelligence` },
+          { label: "TA Weekly", href: `${item.href}#ta-weekly` },
         ],
       },
       {

@@ -41,7 +41,7 @@ export default function TalentOpportunitiesPage() {
   return (
     <>
       <PageIntro eyebrow="CAREER OPPORTUNITIES" title="Talent Opportunities" description="Explore current opportunities being actively worked on by DeyuktiLabs." />
-      <section className="opportunity-list-section section-shell">
+      <section id="selected-active-mandates" className="opportunity-list-section section-shell">
         <div className="opportunities-heading">
           <span className="eyebrow">CURRENT SEARCHES</span>
           <h2>Selected Active Mandates</h2>
@@ -57,7 +57,7 @@ export default function TalentOpportunitiesPage() {
               <h3>No public mandates listed right now</h3>
               <p>Active searches are added here as details are approved for sharing. If you are exploring a move, introduce yourself to our talent team.</p>
             </div>
-            <Link className="button button-primary" href="/contact?intent=talent">Introduce yourself <span aria-hidden="true">↗</span></Link>
+            <Link className="button button-primary" href="/contact?intent=talent">Submit CV. Discover your market worth. <span aria-hidden="true">↗</span></Link>
           </div>
         )}
       </section>
