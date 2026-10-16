@@ -97,6 +97,15 @@ h1, h2, h3, p { margin-top: 0; }
 .hero-copy h1 span { display: block; }
 .hero-copy h1 .hero-heading-accent { color: var(--color-indigo); }
 .hero-copy > p { max-width: 650px; margin: 0; color: var(--muted); font-size: 16px; line-height: 1.7; }
+.hero-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px 24px;
+  width: 100%;
+  margin-top: 24px;
+}
 .button { min-height: var(--button-min-height); padding: var(--button-padding-block) var(--button-padding-inline); display: inline-flex; align-items: center; justify-content: center; gap: var(--button-gap); border: 1px solid transparent; border-radius: var(--button-radius); font-size: var(--button-font-size); font-weight: 700; transition: background .18s ease, color .18s ease, transform .18s ease; }
 .button:hover { transform: translateY(-2px); }
 .button-primary { background: var(--button-primary-background); color: var(--button-primary-color); }
