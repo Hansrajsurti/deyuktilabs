@@ -69,6 +69,16 @@ export default function HomePage() {
           <h1><span>Build the Right Team.</span><span className="hero-heading-accent">Build the System Behind It.</span></h1>
           <p>DeyuktiLabs helps growing businesses solve critical hiring and workforce challenges through strategic talent acquisition, talent intelligence and AI-enabled HR solutions.</p>
         </div>
+        <div className="hero-actions">
+  <Link className="button button-primary" href="/contact">
+    Discuss a Hiring Requirement
+    <span aria-hidden="true">↗</span>
+  </Link>
+  <Link className="text-link" href="/services">
+    Explore Our Services
+    <span aria-hidden="true">→</span>
+  </Link>
+</div>
         <div className="hero-pathways" aria-label="Explore our core services">
           {heroPathways.map((pathway) => (
             <article className="hero-pathway" key={pathway.number}>
