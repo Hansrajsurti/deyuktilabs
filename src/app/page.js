@@ -74,10 +74,6 @@ export default function HomePage() {
     Discuss a Hiring Requirement
     <span aria-hidden="true">↗</span>
   </Link>
-  <Link className="text-link" href="/services">
-    Explore Our Services
-    <span aria-hidden="true">→</span>
-  </Link>
 </div>
         <div className="hero-pathways" aria-label="Explore our core services">
           {heroPathways.map((pathway) => (
