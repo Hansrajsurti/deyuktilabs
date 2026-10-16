@@ -55,7 +55,7 @@ export default function TalentOpportunitiesPage() {
             <span className="opportunity-empty-mark" aria-hidden="true">+</span>
             <div>
               <h3>No public mandates listed right now</h3>
-              <p>Active searches are added here as details are approved for sharing. If you are exploring a move, introduce yourself to our talent team.</p>
+              <p>The mandates featured here represent a select portfolio of premium leadership and career opportunities. For a confidential conversation about opportunities aligned with your aspirations, connect with us.</p>
             </div>
             <Link className="button button-primary" href="/contact?intent=talent">Submit CV. Discover your market worth. <span aria-hidden="true">↗</span></Link>
           </div>
